@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bien, kieu DL va Toan tu</title>
+</head>
+<body>
+<script>
+  let diemVL;
+  let diemHH;
+  let diemSH;
+  diemVL = prompt('Nhap diem vat ly');
+  diemHH = prompt('nhap diem hoa hoc');
+  diemSH = prompt('Nhap diem sinh hoc');
+  let DiemVatLy = parseInt(diemVL);
+  let DiemHoaHoc = parseInt(diemSH);
+  let DiemSinhHoc = parseInt(diemSH);
+  let tongdiem = (DiemVatLy + DiemHoaHoc + DiemSinhHoc);
+  let diemtb = (DiemVatLy + DiemHoaHoc+ DiemSinhHoc)/3;
+  document.write('tongdiem = ' + tongdiem);
+  document.write('</br>');
+  document.write('diemtb = ' + diemtb);
+</script>
+</body>
+</html>

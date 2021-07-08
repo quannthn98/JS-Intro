@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test form</title>
+</head>
+<body>
+  <h1> Nhap vao chu vi</h1>
+  <input type="number" id="demo" name="chuvi"> <br>
+  <div id="CHUVI"></div>
+
+  <script>
+    function tinhchuvi() {
+      let Bankinh;
+      Bankinh = document.getElementById("demo").value;
+      let r = parseInt(Bankinh);
+        let p = r * 2 * 3.14;
+      alert('Chu vi cua hinh tron la: ' + p);
+    }
+
+  </script>
+<button type="button" onclick="tinhchuvi()"> Tinh chu vi</button> <br>
+<button type="button" onclick="tinhdientich()"> Tinh dien tich</button>
+</body>
+</html>
